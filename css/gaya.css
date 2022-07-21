@@ -1,0 +1,38 @@
+/*ini untuk import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* BEBERAPA STYLE AGAR BISA DIPANGGIL KE HTML MANUAL*/
+
+/* Mengubah Semua Font jadi Poppins dan sans-serif */
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	font-size: 14px;
+}
+
+a:hover {
+	color: #826F66 !important;
+}
+
+.flex {
+	display: flex;
+}
+
+.content-center {
+	justify-content: center;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
